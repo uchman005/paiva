@@ -1,0 +1,114 @@
+
+/* header section*/
+
+.navbar-brand {
+  width: auto;
+  height: 4rem;
+}
+
+.header-img{
+  height: 100%;
+}
+.nav-link{
+  margin-right: 100%;
+}
+header{
+  position: static;
+}
+body {
+  text-align: center;
+}
+@media (max-width: 700px) {
+  body {
+    text-align: left;
+  }
+  .main {
+    font-family: sans-serif;
+    padding: 7% 30% 7% 5%;
+    text-align: center;
+    color: firebrick;
+  }
+}
+
+/* main section */
+.img-bg{
+  background-image: url('../images/Digital.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 150%;
+  color: #73ce6b ;
+}
+.main {
+  font-family: sans-serif;
+  padding: 7% 60% 7% 5%;
+  text-align: center;
+  color: firebrick;
+}
+.heart{
+  color: firebrick;
+}
+
+.big-header {
+  font-family: serif;
+  margin: 7% 15%;
+
+}
+.main-text{
+font-family: Arial, Helvetica, sans-serif;
+margin: 7% 15%;
+}
+/* Different sections  */
+.second{
+   /*background-color: #67bfbf;*/
+   font-family: sans-serif;
+   padding: 7% 20%;
+   text-align: center;
+}
+
+.third{
+    background-color: #f17d68;
+    font-family: sans-serif;
+    padding: 2%;
+    text-align: center;
+}
+
+
+/*Carousel items*/
+.digital{
+  background-image: url('../images/Digital.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 150%;
+}
+
+.information{
+  background-image: url('../images/information-management-technology.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 150%;
+}
+
+.mobile{
+  background-image: url('../images/mobile.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 150%;
+}
+.process{
+  background-image: url('../images/process.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 150%;
+}
+.uiux{
+  background-image: url('../images/uiux.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 150%;
+}
+.ecommerce{
+  background-image: url('../images/ecommerce.png');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 150%;
+}
