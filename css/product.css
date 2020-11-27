@@ -1,0 +1,130 @@
+
+/* header section*/
+
+.navbar-brand {
+  width: auto;
+  height: 4rem;
+}
+
+.header-img{
+  height: 100%;
+}
+.nav-link{
+  margin-right: 100%;
+}
+header{
+  position: static;
+}
+body {
+  text-align: center;
+}
+@media (max-width: 700px) {
+  body {
+    text-align: left;
+  }
+  .main {
+    font-family: sans-serif;
+    padding: 7% 30% 7% 5%;
+    text-align: center;
+    color: firebrick;
+  }
+}
+
+/* main section */
+.img-bg{
+  background-image: url('../images/Digital.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 150%;
+  color: #73ce6b ;
+}
+.main {
+  font-family: sans-serif;
+  padding: 7% 60% 7% 5%;
+  text-align: center;
+  color: firebrick;
+}
+.heart{
+  color: firebrick;
+}
+
+.big-header {
+  font-family: serif;
+  margin: 7% 15%;
+
+}
+.main-text{
+font-family: Arial, Helvetica, sans-serif;
+margin: 7% 15%;
+}
+/* Different sections  */
+.second{
+   /*background-color: #67bfbf;*/
+   font-family: sans-serif;
+   padding: 7% 20%;
+   text-align: center;
+}
+
+.third{
+    background-color: #11cdd4;
+    font-family: sans-serif;
+    text-align: center;
+    color: floralwhite;
+    }
+        /*Carousel items*/
+.digital{
+  background-image: url('../images/Digital.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+
+.information{
+  background-image: url('../images/information-management-technology.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+
+.mobile{
+  background-image: url('../images/mobile.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+.process{
+  background-image: url('../images/process.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+.uiux{
+  background-image: url('../images/uiux.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+.ecommerce{
+  background-image: url('../images/ecommerce.png');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
